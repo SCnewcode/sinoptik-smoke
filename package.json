@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "Cypress_Test": "cypress run",
+    "cypress-test": "npx cypress run --spec cypress/e2e/sinoptik-floy-tests/sinoptik.test.cy.js --config-file cypress.test.config.js --env environment=development",
+    "cypress-dev-open": "cypress open --config-file cypress.test.config.js"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.16.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "cypress-mailosaur": "^2.14.0",
+    "cypress-mailslurp": "^1.9.0",
+    "mailslurp": "^0.0.1-security",
+    "node-html-parser": "^6.1.12"
+  }
+}
